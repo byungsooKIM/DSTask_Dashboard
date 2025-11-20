@@ -96,7 +96,7 @@ elif selected == "한국 1인가구 인구통계":
 
 elif selected == "한국 1인가구 주거통계":
     with st.expander(":material/chair: **실제 1인가구의 평면은 어떤 모습일까요?** (Floor plan)"):
-        st.image("floor.png")
+        #st.image("floor.png")
 
 #    cols3 = st.columns(3)
 #    with cols3[0]:
@@ -125,21 +125,21 @@ elif selected == "서울 행정구별 1인가구":
 
 elif selected == "제품별 언급량 순위":
     with st.expander(":material/experiment: **어떻게 활용하였을까요?**"):
-        st.image("strategy.png")
+        #st.image("strategy.png")
     st.empty()
     iframe = st.empty()
     iframe.markdown("<iframe src='https://public.tableau.com/views/251117_social_bigdata/1_1?:showVizHome=no&:embed=true', width=1200, height=2500, scrolling=no, frameborder=0'></iframe>", unsafe_allow_html=True)
 
 elif selected == "보유제품 / 구매희망":
     with st.expander(":material/experiment: **어떻게 분석하였을까요?**"):
-        st.image("social_data.png")
+        #st.image("social_data.png")
     st.empty()
     iframe = st.empty()
     iframe.markdown("<iframe src='https://public.tableau.com/views/251116_device_retention_wish/1_1?:showVizHome=no&:embed=true', width=1200, height=900, scrolling=no, frameborder=0'></iframe>", unsafe_allow_html=True)
 
 elif selected == "제품별 불편사항":
     with st.expander(":material/experiment: **어떻게 분석하였을까요?**"):
-        st.image("methodology.png")
+        #st.image("methodology.png")
     #        video_file = open('function.mp4', 'rb')
     #        video_bytes = video_file.read()
     #        st.video(video_bytes, width=480, autoplay=True)
@@ -155,5 +155,6 @@ elif selected == "제품별 불편사항":
 #container.write("본 자료의 소유권은 Design Solution Task 에 있으며, 재가공 및 배포가 불가합니다")
 #with ui.card(key="card_test"):
 #ui.element("span", children=["본 자료의 소유권은 Design Solution Task 에 있으며, 재가공 및 배포가 불가합니다"], className="text-gray-400 text-sm font-medium m-1", key="label1")
+
 
 
