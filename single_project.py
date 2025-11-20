@@ -2,7 +2,7 @@
 
 import streamlit as st
 #from streamlit_option_menu import option_menu
-import streamlit_shadcn_ui as ui
+#import streamlit_shadcn_ui as ui
 
 # 스타일을 미리 정의해야하는 듯 : https://pypi.org/project/streamlit-navigation-bar/2.0.0/
 #from streamlit_navigation_bar import st_navbar
@@ -47,14 +47,14 @@ selected = st.sidebar.selectbox('Theme',('글로벌 1인가구','한국 1인가�
 # 참조 레딧 https://discuss.streamlit.io/t/why-st-components-v1-html-and-iframe-functions-limit-the-height-of-the-frame-to-150/21858/9
 
 if selected == "글로벌 1인가구":
-    with st.expander(":material/lightbulb_2: **중요 내용을 요약해 드려요**", expanded=False):
-        cols = st.columns(3)
-        with cols[0]:
-            ui.metric_card(title="Ranking", content="북반구로 갈수록 높아요", description="Norway > Denmark > Finland > Sweden", key="card1")
-        with cols[1]:
-            ui.metric_card(title="Region", content="저개발 국가는 낮아요", description="동남아, 아프리카", key="card2")
-        with cols[2]:
-            ui.metric_card(title="Trend", content="계속 증가하고 있어요", description="10~15% 대가 적은, 양극화 경향", key="card3")
+#    with st.expander(":material/lightbulb_2: **중요 내용을 요약해 드려요**", expanded=False):
+#        cols = st.columns(3)
+#        with cols[0]:
+#            ui.metric_card(title="Ranking", content="북반구로 갈수록 높아요", description="Norway > Denmark > Finland > Sweden", key="card1")
+#        with cols[1]:
+#            ui.metric_card(title="Region", content="저개발 국가는 낮아요", description="동남아, 아프리카", key="card2")
+#        with cols[2]:
+#            ui.metric_card(title="Trend", content="계속 증가하고 있어요", description="10~15% 대가 적은, 양극화 경향", key="card3")
 
     st.empty()
     iframe = st.empty()
@@ -76,14 +76,14 @@ if selected == "글로벌 1인가구":
         st.write(":material/quick_reference_all: Single household VS GDP per capita : https://ourworldindata.org/grapher/one-person-households-vs-gdp-per-capita")
 
 elif selected == "한국 1인가구 인구통계":
-    with st.expander(":material/lightbulb_2: **중요 내용을 요약해 드려요**", expanded=False):
-        cols2 = st.columns(3)
-        with cols2[0]:
-            ui.metric_card(title="Ratio", content="1인가구는 35.5%", description="2023년", key="card4")
-        with cols2[1]:
-            ui.metric_card(title="Age & Gender", content="남성은 30대 / 여성은 70대", description="중간세대가 적은 여성", key="card5")
-        with cols2[2]:
-            ui.metric_card(title="Income", content="3,223만원", description="전체가구 평균의 44.9%", key="card6")
+#    with st.expander(":material/lightbulb_2: **중요 내용을 요약해 드려요**", expanded=False):
+#        cols2 = st.columns(3)
+#        with cols2[0]:
+#            ui.metric_card(title="Ratio", content="1인가구는 35.5%", description="2023년", key="card4")
+#        with cols2[1]:
+#            ui.metric_card(title="Age & Gender", content="남성은 30대 / 여성은 70대", description="중간세대가 적은 여성", key="card5")
+#        with cols2[2]:
+#            ui.metric_card(title="Income", content="3,223만원", description="전체가구 평균의 44.9%", key="card6")
 
     st.empty()
     iframe = st.empty()
@@ -98,13 +98,13 @@ elif selected == "한국 1인가구 주거통계":
     with st.expander(":material/chair: **실제 1인가구의 평면은 어떤 모습일까요?** (Floor plan)"):
         st.image("floor.png")
 
-    cols3 = st.columns(3)
-    with cols3[0]:
-        ui.metric_card(title="Average", content="13.8평", description="1인가구 평균주거면적", key="card7")
-    with cols3[1]:
-        ui.metric_card(title="Type", content="단독주택", description="아파트가 지속 상승", key="card8")
-    with cols3[2]:
-        ui.metric_card(title="Majority", content="51%", description="12평 이하 주거비율", key="card9")
+#    cols3 = st.columns(3)
+#    with cols3[0]:
+#        ui.metric_card(title="Average", content="13.8평", description="1인가구 평균주거면적", key="card7")
+#    with cols3[1]:
+#        ui.metric_card(title="Type", content="단독주택", description="아파트가 지속 상승", key="card8")
+#    with cols3[2]:
+#        ui.metric_card(title="Majority", content="51%", description="12평 이하 주거비율", key="card9")
 
     st.empty()
     iframe = st.empty()
@@ -155,4 +155,5 @@ elif selected == "제품별 불편사항":
 #container.write("본 자료의 소유권은 Design Solution Task 에 있으며, 재가공 및 배포가 불가합니다")
 #with ui.card(key="card_test"):
 #ui.element("span", children=["본 자료의 소유권은 Design Solution Task 에 있으며, 재가공 및 배포가 불가합니다"], className="text-gray-400 text-sm font-medium m-1", key="label1")
+
 
