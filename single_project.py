@@ -142,7 +142,7 @@ elif selected == "보유제품 / 구매희망":
 # ----------------------------------------------------------------------------------------------------------------------
 elif selected == "제품별 불편사항":
     with st.expander(":material/experiment: **어떻게 분석하였을까요?**"):
-        st.image("methodology.png")
+        st.image("methodology_VOC.png")
 
     st.empty()
     iframe = st.empty()
@@ -156,3 +156,4 @@ elif selected == "제품별 불편사항":
         }
         st.table(voc_data, border="horizontal")
 # ----------------------------------------------------------------------------------------------------------------------
+
