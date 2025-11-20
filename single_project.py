@@ -22,7 +22,7 @@ st.logo("https://www.lge.co.kr/kr/images/company/info/img-info-brand-identity-gr
 # 아이콘 추가하는 사이트 : https://icons.getbootstrap.com/
 with st.sidebar:
     st.space("small")
-    selected = option_menu("Category",
+    selected = option_menu("분석 항목",
                            ["글로벌 1인가구", '한국 1인가구 인구통계', '한국 1인가구 주거통계', '서울 행정구별 1인가구', '제품별 언급량 순위', '보유제품 / 구매희망', '제품별 불편사항'],
                             icons=['bi bi-globe-americas', 'bi bi-person-circle', 'bi bi-house-door-fill', 'bi bi-geo-alt-fill', 'bi bi-twitter', 'bi bi-heart-fill', 'bi bi-heartbreak-fill'],
                             menu_icon="bi bi-list-ol", default_index=0,
@@ -155,6 +155,7 @@ elif selected == "제품별 불편사항":
 #container.write("본 자료의 소유권은 Design Solution Task 에 있으며, 재가공 및 배포가 불가합니다")
 #with ui.card(key="card_test"):
 #ui.element("span", children=["본 자료의 소유권은 Design Solution Task 에 있으며, 재가공 및 배포가 불가합니다"], className="text-gray-400 text-sm font-medium m-1", key="label1")
+
 
 
 
