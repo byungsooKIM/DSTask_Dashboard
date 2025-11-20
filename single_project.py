@@ -28,7 +28,7 @@ with st.sidebar:
                             menu_icon="bi bi-list-ol", default_index=0,
                             styles={
                                 "container": {"padding": "5!important", "background-color": "#fafafa"},
-                                "nav-link": {"fon.t-size": "16px", "text-align": "left", "margin": "0px", "--hover-color": "#eee"},
+                                "nav-link": {"fon.t-size": "12px", "text-align": "left", "margin": "0px", "--hover-color": "#eee"},
                                 "nav-link-selected": {"background-color": "#f0004c"},
                             }
                            )
@@ -155,6 +155,7 @@ elif selected == "제품별 불편사항":
 #container.write("본 자료의 소유권은 Design Solution Task 에 있으며, 재가공 및 배포가 불가합니다")
 #with ui.card(key="card_test"):
 #ui.element("span", children=["본 자료의 소유권은 Design Solution Task 에 있으며, 재가공 및 배포가 불가합니다"], className="text-gray-400 text-sm font-medium m-1", key="label1")
+
 
 
 
