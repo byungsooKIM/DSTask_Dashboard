@@ -2,7 +2,7 @@
 
 import streamlit as st
 from streamlit_option_menu import option_menu
-#import streamlit_shadcn_ui as ui
+import streamlit_shadcn_ui as ui
 
 # 스타일을 미리 정의해야하는 듯 : https://pypi.org/project/streamlit-navigation-bar/2.0.0/
 #from streamlit_navigation_bar import st_navbar
@@ -155,6 +155,7 @@ elif selected == "제품별 불편사항":
 #container.write("본 자료의 소유권은 Design Solution Task 에 있으며, 재가공 및 배포가 불가합니다")
 #with ui.card(key="card_test"):
 #ui.element("span", children=["본 자료의 소유권은 Design Solution Task 에 있으며, 재가공 및 배포가 불가합니다"], className="text-gray-400 text-sm font-medium m-1", key="label1")
+
 
 
 
