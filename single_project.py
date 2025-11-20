@@ -1,7 +1,7 @@
 # 앱 배포하기 : https://codemagician.tistory.com/entry/Streamlit-05-Streamlit-%EC%95%B1-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0
 
 import streamlit as st
-#from streamlit_option_menu import option_menu
+from streamlit_option_menu import option_menu
 #import streamlit_shadcn_ui as ui
 
 # 스타일을 미리 정의해야하는 듯 : https://pypi.org/project/streamlit-navigation-bar/2.0.0/
@@ -155,6 +155,7 @@ elif selected == "제품별 불편사항":
 #container.write("본 자료의 소유권은 Design Solution Task 에 있으며, 재가공 및 배포가 불가합니다")
 #with ui.card(key="card_test"):
 #ui.element("span", children=["본 자료의 소유권은 Design Solution Task 에 있으며, 재가공 및 배포가 불가합니다"], className="text-gray-400 text-sm font-medium m-1", key="label1")
+
 
 
 
