@@ -48,7 +48,7 @@ def login():
         st.session_state["logged_in"] = True
         st.success("로그인에 성공했습니다")
         #st.markdown("https://www.google.com/", unsafe_allow_html=True)
-        st.link_button("대시보드 열기", "https://www.google.com/")
+        st.link_button("대시보드 열기", "https://dst-dashboard.streamlit.app/")
     else:
         st.error("실패")
 
@@ -100,4 +100,5 @@ else:
 #with cols2[1]:
 #    ui.metric_card(title="N/A", content="준비중", description="작성자", key="card5")
 #with cols2[2]:
+
 #    ui.metric_card(title="N/A", content="준비중", description="작성자", key="card6")
