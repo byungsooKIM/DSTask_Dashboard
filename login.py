@@ -36,7 +36,7 @@ add_bg_from_url()
 # 컨텐츠 영역을 넓게 쓰기 위함
 #st.set_page_config(layout="wide")
 
-st.markdown("<h1 style='text-align: center; color: #555555;font-size: 42px;'>HS/ES AX Insight Lounge</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #555555;font-size: 42px;'>AX Insight Lounge</h1>", unsafe_allow_html=True)
 st.space(size="large")
 st.space(size="large")
 
@@ -102,4 +102,5 @@ else:
 #with cols2[2]:
 
 #    ui.metric_card(title="N/A", content="준비중", description="작성자", key="card6")
+
 
