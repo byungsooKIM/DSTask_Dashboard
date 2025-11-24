@@ -5,7 +5,7 @@ import streamlit_shadcn_ui as ui
 # ----------------------------------------------------------------------------------------------------------------------
 # 레이아웃
 # ----------------------------------------------------------------------------------------------------------------------
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="AX Dashboard")
 st.logo("https://www.lge.co.kr/kr/images/company/info/img-info-brand-identity-graph_01_pc.png")
 
 with st.sidebar:
@@ -156,4 +156,5 @@ elif selected == "제품별 불편사항":
         }
         st.table(voc_data, border="horizontal")
 # ----------------------------------------------------------------------------------------------------------------------
+
 
