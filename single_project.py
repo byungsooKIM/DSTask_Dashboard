@@ -112,9 +112,10 @@ elif selected == "서울 행정구별 1인가구":
     iframe = st.empty()
     iframe.markdown("<iframe src='https://public.tableau.com/views/251119_seoul_map/1_1?:showVizHome=no&:embed=true', width=1200, height=1250, scrolling=no, frameborder=0'></iframe>", unsafe_allow_html=True)
 
-    with st.expander(":material/lightbulb_2: **더 자세히 알고 싶으세요?** (Implication)"):
+    with st.expander(":material/lightbulb_2: **더 자세히 알고 싶으세요?**"):
         st.write(":material/check: **관악구**는 서울에서 가장 1인 가구가 많이 살고, 1인 가구 비율이 높아요")
         st.write(":material/check: 연령대가 낮을수록, 학교나 직장 근처에 살고 있는 경향을 보여요")
+        st.write(":material/check: 연령대가 높을수록, 중심지에서 멀리 살아요")
         st.write(":material/quick_reference_all: (출처:서울공공데이터포털) https://data.seoul.go.kr/dataList/OA-22267/F/1/datasetView.do")
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -156,5 +157,6 @@ elif selected == "제품별 불편사항":
         }
         st.table(voc_data, border="horizontal")
 # ----------------------------------------------------------------------------------------------------------------------
+
 
 
