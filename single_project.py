@@ -127,6 +127,8 @@ elif selected == "제품별 언급량 순위":
     iframe = st.empty()
     iframe.markdown("<iframe src='https://public.tableau.com/views/251117_social_bigdata/1_1?:showVizHome=no&:embed=true', width=1200, height=2500, scrolling=no, frameborder=0'></iframe>", unsafe_allow_html=True)
 
+    with st.expander(":material/lightbulb_2: **더 자세히 알고 싶으세요?**"):
+        st.write(":material/check: 최근에 1인 가구에게 관심이 높아진 제품들이 보이고 있어요 (건조기, 식기세척기, 음식물 처리기 등)")
     with st.expander(":material/experiment: **어떻게 활용하였을까요?**"):
         st.image("strategy.png")
 # ----------------------------------------------------------------------------------------------------------------------
@@ -157,6 +159,7 @@ elif selected == "제품별 불편사항":
         }
         st.table(voc_data, border="horizontal")
 # ----------------------------------------------------------------------------------------------------------------------
+
 
 
 
