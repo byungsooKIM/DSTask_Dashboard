@@ -44,7 +44,7 @@ st.space(size="large")
 # 로그인 기능넣기 : https://59travel.tistory.com/7
 # ----------------------------------------------------------------------------------------------------------------------
 def login():
-    if id == "admin" and pw == "password":
+    if id == "admin" and pw == "123456":
         st.session_state["logged_in"] = True
         st.success("로그인에 성공했습니다")
         #st.markdown("https://www.google.com/", unsafe_allow_html=True)
@@ -102,5 +102,6 @@ else:
 #with cols2[2]:
 
 #    ui.metric_card(title="N/A", content="준비중", description="작성자", key="card6")
+
 
 
