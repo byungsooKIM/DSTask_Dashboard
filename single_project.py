@@ -161,7 +161,12 @@ elif selected == "제품별 불편사항":
         st.table(voc_data, border="horizontal")
 # ----------------------------------------------------------------------------------------------------------------------
 
-
+# ----------------------------------------------------------------------------------------------------------------------
+elif selected == "데이터 실험실":
+    st.empty()
+    iframe = st.empty()
+    iframe.markdown("<iframe src='https://public.tableau.com/views/_17642058334630/Dashboard1?:showVizHome=no&:embed=true', width=1200, height=900, scrolling=no, frameborder=0'></iframe>", unsafe_allow_html=True)
+# ----------------------------------------------------------------------------------------------------------------------
 
 
 
