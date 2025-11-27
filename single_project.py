@@ -12,7 +12,7 @@ with st.sidebar:
     st.space("small")
     selected = option_menu("분석 주제",
                            ["글로벌 1인가구", '한국 1인가구 인구통계', '한국 1인가구 주거통계', '서울 행정구별 1인가구', '제품별 언급량 순위', '보유제품 / 구매희망', '제품별 불편사항', '데이터 실험실'],
-                            icons=['bi bi-globe-americas', 'bi bi-person-circle', 'bi bi-house-door-fill', 'bi bi-geo-alt-fill', 'bi bi-twitter', 'bi bi-heart-fill', 'bi bi-heartbreak-fill', 'bi bi-heart-fill'],
+                            icons=['bi bi-globe-americas', 'bi bi-person-circle', 'bi bi-house-door-fill', 'bi bi-geo-alt-fill', 'bi bi-twitter', 'bi bi-heart-fill', 'bi bi-heartbreak-fill', 'bi bi-bank'],
                             menu_icon="bi bi-list-ol", default_index=0,
                             styles={
                                 "container": {"padding": "5!important", "background-color": "#fafafa"},
@@ -167,6 +167,7 @@ elif selected == "데이터 실험실":
     iframe = st.empty()
     iframe.markdown("<iframe src='https://public.tableau.com/views/_17642058334630/Dashboard1?:showVizHome=no&:embed=true', width=1200, height=900, scrolling=no, frameborder=0'></iframe>", unsafe_allow_html=True)
 # ----------------------------------------------------------------------------------------------------------------------
+
 
 
 
