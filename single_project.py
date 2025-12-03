@@ -172,8 +172,9 @@ elif selected == "실험실 (유럽식문화)":
 elif selected == "실험실 (시니어)":
     st.empty()
     iframe = st.empty()
-    iframe.markdown("<iframe src='https://public.tableau.com/views/_17642058334630/Dashboard1?:showVizHome=no&:embed=true', width=1200, height=900, scrolling=no, frameborder=0'></iframe>", unsafe_allow_html=True)
+    iframe.markdown("<iframe src='https://public.tableau.com/views/251203_world_population/1?:showVizHome=no&:embed=true', width=1200, height=900, scrolling=no, frameborder=0'></iframe>", unsafe_allow_html=True)
 # ----------------------------------------------------------------------------------------------------------------------
+
 
 
 
